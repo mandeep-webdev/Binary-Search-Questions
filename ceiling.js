@@ -2,6 +2,9 @@
 
 const findCeiling = (arr,target) => {
   debugger
+  if(target > arr[arr.length - 1]) {
+    return -1
+  }
   let start = 0
   let end = arr.length - 1
   while(start <= end) {
@@ -20,5 +23,5 @@ const findCeiling = (arr,target) => {
 }
 
 
-const result = findCeiling([2,4,8,13,21,24,33,40],22)
+const result = findCeiling([2,4,8,13,21,24,33,40],122)
 console.log(result)

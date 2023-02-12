@@ -1,6 +1,7 @@
 // Find floor of a number means the greater number of an arr which is = or < the target
 
 const findFloor = (arr,target) => {
+  debugger
   let start = 0
   let end = arr.length - 1
   while(start <= end) {
