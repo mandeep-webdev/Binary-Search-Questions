@@ -5,7 +5,6 @@
 
 
 const findPeakIndex = (arr) => {
-  debugger
   let start = 0
   let end = arr.length - 1
   while(start < end) {
@@ -23,6 +22,6 @@ const findPeakIndex = (arr) => {
   return start
 }
 
-const result = findPeakIndex([2,4,8,9,5,3,2,1])
+const result = findPeakIndex([3,4,5,6,8,2,0])
 console.log(result)
 
