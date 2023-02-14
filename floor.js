@@ -20,5 +20,5 @@ const findFloor = (arr,target) => {
 }
 
 
-const result = findFloor([2,4,8,13,21,24,33,40],35)
+const result = findFloor([2,4,8,13,21,24,33,40],1)
 console.log(result)
