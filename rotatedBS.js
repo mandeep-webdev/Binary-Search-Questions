@@ -2,6 +2,8 @@
 
 // Note --- we can make it shorten by appling recursion
 
+// this soln is not for array which contains duplicate values
+
 
 const findPivot = (arr) => {
   let start = 0
