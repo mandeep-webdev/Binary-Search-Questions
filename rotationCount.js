@@ -6,13 +6,14 @@
 const countRotations = (arr) => {
   // no. of count means Pivot Position + 1
   const pivot = findPivot(arr)
-  if(pivot === -1){
-    // means it is not a rotated array
-    return 0
-  }
-  else {
-    return pivot + 1
-  }
+  // if(pivot === -1){
+  //   // means it is not a rotated array
+  //   return 0
+  // }
+  // else {
+  //   return pivot + 1
+  // }
+  return pivot + 1 // if findPivot returns -1 then ans would be 0. Hence no need of extra condition like above
 }
 
 const findPivot = (arr) => {
